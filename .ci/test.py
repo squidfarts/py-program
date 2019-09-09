@@ -17,4 +17,4 @@ import subprocess
 
 
 subprocess.check_call(['python3', join_paths('src', 'main', 'module', 'main.py')])
-subprocess.check_call(['codecov', join_paths('src', 'main', 'module', 'main.py')])
+subprocess.check_call(['codecov', 'run', join_paths('src', 'main', 'module', 'main.py')])
